@@ -1,0 +1,116 @@
+.texto-principal {
+    background-color:  #C4C4C4;
+    background-color: ;
+    margin: 0%;
+    text-align: center;
+    color: #005677;
+    font-family:'Times New Roman';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size :35px;
+
+}
+
+
+.imagen {
+  
+    display:block;
+    margin:auto;
+
+}
+
+.imgbatman{
+    background-color:#E6E6E6;;
+   
+    
+
+}
+
+
+body{
+    background-color: white;
+}
+
+.listas li{
+    font-family:'Times New Roman';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 12.7px;
+    
+
+
+}
+
+
+.texto-secundario{
+
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family:'Times New Roman';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size :20px;
+   
+    margin-top: 144px;
+
+
+}
+
+#fondo-secundario{
+      
+
+background: #ff0000;
+  
+
+}
+
+
+
+
+
+
+.texto-terciario{
+    background-color: #C4C4C4;
+    
+    color: #005677;
+    font-family:'Times New Roman';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size :20px;
+    
+
+    
+}
+
+.pie-pagina {
+    background-color: #005677;
+   
+}
+
+
+
+.footer-text{
+          color:white;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 321px;
+           
+          
+        
+
+}
+
+.logo-ig{
+   
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+/*background-image: url('../img/ico_instagram.png')*/
