@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="barra-verde">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+
+
+
+        <div class="tu-tienda">
+
+            <h2>Nombre Tienda</h2>
+           <div>
+            <img src="./img/Vector.png" alt="">
+           </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="menu">
+
+            <nav>
+                <ul>
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+        <section class="formulario flex">
+
+            <h2>Añadi tu Super!</h2>
+
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+
+          <form action="/registro" method="POST">
+            
+           <div class="cuadro-1">
+            <label for="nombre">*Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu Nombre">
+              
+
+            <label for="fecha"></label>
+            <input type="date" name="fecha" id="fecha">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+             <br>
+
+            </div>
+             
+
+            <label for="nombre">*Espacie:</label>
+            <input list="Especie" name="lista">
+            <datalist id="Especie">
+                <option value="Batman" ></option>
+                <option value="Superman"></option>
+                <option value="La chica Maravilla"></option>
+            
+            </datalist>
+
+
+            
+            <label for="file">Agregar Foto</label>
+            <input type="file"> 
+
+
+            
+
+            <label for="poders">Podes:</label>
+            <br>
+
+            <input type="checkbox" value="Volar" checked>
+            <br>
+            <input type="checkbox" value="Superinteligencia" checked>
+            <br>
+            <input type="checkbox" value="Vista de rayo laser" checked>
+            <br>
+            <input type="checkbox" value="Billetera Gorda" checked>
+
+            <hr  class="linea" />
+
+           
+
+            <radiogroup>
+            <label for="heroe">Tipo de Hereo</label>
+            <br>
+            <input type="radio" id="heroe" name="heroe"  value="Hereo / Heroina" autofocus checked>
+            
+            <input type="radio" id="villano" name="villano"  value= "Villano / Villana" autofocus checked>
+
+            </radiogroup>
+            
+
+            
+
+
+            <input class="button" type="submit" value="Añadir">
+
+
+
+
+          </form>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+</body>
+</html>

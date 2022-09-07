@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+
+.barra-principal {
+
+    background-color: black;
+    display: flex;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+#navegacion ul li {
+   
+ 
+    color: white;
+    list-style:none;
+    display: inline-block;
+    
+    margin-left: 50px;
+    margin-top: 25px;
+    position: relative;
+    right: -710px;
+
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 19px;
+
+
+
+        
+}
+
+
+/*Main Principal*/
+
+
+
+.contenedor-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    height: 350px;
+  
+
+  
+}
+
+
+.delivery{
+    position:absolute;
+    display: flex;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 30px;
+    left: 200px;
+    
+   
+
+}
+
+
+.delivery img {
+    width: 550px;
+    height: 450px;
+}
+
+
+
+.listas-pizzas{
+    display: flex;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 5px;
+    right:200px;
+    margin-top: 30px;
+    
+}
+
+.titulo-pizzas {
+position: absolute;
+left: 140px;
+margin-top: 30px;
+    
+   
+}
+
+
+
+.listas-pizzas h3{
+ 
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 90px;
+    top: 150px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #222222;    
+
+
+
+}
+
+
+.listas-pizzas ol {
+    position: absolute;
+    left: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    top: 200px;
+    margin-top: 10px;
+}
+
+.listas-pizzas img {
+
+
+    position: absolute;
+    left: 360px;
+    top: 150px;
+
+    width: 150px;
+    
+   
+   
+    
+    
+}
+
+
+
+
+
+
+h2{
+    color: red;
+ 
+}
+
+
+
+.envio h2 {
+   position: absolute;
+    left: 60px;
+    top: 40px;
+    
+   
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #FC200C;
+}
+
+.envio span {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer*/
+footer{
+height: 150px;
+
+left: 0px;
+top: 520px;
+background: #222222;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding-top:10px;
+display: flex;
+margin-top: 220px;
+
+
+
+
+}
+
+.menu-footer ul li{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-style: 'Roboto';
+    margin-left: 10px;
+    list-style: none;
+   
+
+}
+
+
+
+
+
+.pizza-foot {
+    
+    margin-left: 1100px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left:1150px;
+    text-align: center;
+    
+    
+
+  
+} 
+
+

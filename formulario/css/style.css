@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.formulario {
+    width: 80vw;
+    height: 75vh;
+    border-radius: 15px 
+    margin: 0 10vw;
+
+
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    height: 35%;
+}
+
+
+/* estilizar button y agregar separador entre A Y BUTTON EN Form*/
