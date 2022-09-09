@@ -1,0 +1,49 @@
+
+/* Generales  de Index*/
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.flex-column-center {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* estilo section del contenedor form*/
+
+.contenedor-form{
+   
+    width: 60vw;
+    height:80vh;
+    border: 3px solid red;
+
+    margin: 5vh 20vw;
+}
+
+.btn{
+    width: 50%;
+}
+
+/* pseudoselectores -> un elemento cambia o sufre un evento (hover)*/ 
+
+.btn:hover {
+    background-color: black;
+    color:#fff;
+}
+
+/* :activ cuando se hace click*/ 
+/* inavalid cuando no cumple el requisito*/ 
+/* requiered*/ 
+
+/* pseudoelementos*/ 
+
+label::after {
+    content: '*';
+    color: red;
+    position: absolute;
+    right: 160px;
+}
