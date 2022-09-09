@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+
+
+
+.descuento{
+    position: relative;
+   
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    
+    background: #1CD1B0;
+}
+
+.descuento p {
+    position: relative;
+   
+    height: 18px;
+    left: 27px;
+    top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+ .heroe {
+     
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 2024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25)
+}
+
+.heroe h2 {
+
+    position: absolute;
+   
+    height: 47px;
+    left: 28px;
+    top: 26px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+
+
+
+
+}
+
+/*Posicionamiento MAIN */
+
+
+.contenedor-padre{
+    display: flex;
+    position: relative;
+    height: 800px;
+    top:100px;
+   
+ 
+    
+
+}
+
+.articulo .base {
+    position: absolute;
+    padding-top: 120px;
+    left: 100px;
+}
+
+
+.articulo .corazon {
+    position: absolute;
+    left: 120px;
+    top: 130px;
+}
+
+
+.articulo div h2 {
+    position: absolute;
+    top:30px;
+    left: 95px;
+
+
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #000000;
+    }
+
+.articulo div p{
+
+    text-align: justify;
+    margin-top: 100px;
+     padding: 0px 17px 0px 16px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+   
+    color: #333333;
+}
+
+
+.button {
+    position: absolute;
+    
+    width: 128.78px;
+    height: 48.52px;
+    top: 250px;
+    left: 80px;
+    background: #00669F;
+    border: none;
+    color: white;
+
+
+}
+
+
+
+.articulo div {
+
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 100px;
+    top: 315px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.img-batman{
+    position: relative;
+    left: 190px;
+    top: 210px;
+    z-index: 10;
+    border-radius: 60px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+
+/* Option Harley */ 
+
+
+
+.articulo2 .base-harley {
+    position: absolute;
+    padding-top: 120px;
+    left: 600px;
+}
+
+
+
+.articulo2 div {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 600px;
+    top: 315px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+
+
+div .harley {
+    position: absolute;
+    top:30px;
+    left: 75px;
+
+
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+  
+    text-align: center;
+
+    color: #000000;
+    }
+
+.articulo2 div p {
+     position: absolute;
+    
+
+     text-align: justify;
+     margin-top: 100px;
+     padding: 0px 17px 0px 16px;
+    
+
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+ 
+    
+     color: #333333;
+   
+}
+
+ 
+.articulo2 .corazon2 {
+    position: absolute;
+    left: 620px;
+    top: 130px;
+    
+}
+
+
+.img-chica{
+    position: relative;
+    left: 575px;
+    top: 210px;
+    z-index: 10;
+    border-radius: 60px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer, div.footer-p{
+    background-color: #00669F;
+  
+    color: white;
+
+    margin-top: 100%;
+    padding-left: 10px;
+    height: 31px;
+    padding-bottom: 10px;
+    
+   
+    
+}
+
+.footer-p {
+    padding: 10px;
+   font-weight:bold;
+}
+
+
+
+
+
+
+

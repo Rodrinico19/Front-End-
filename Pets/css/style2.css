@@ -1,0 +1,44 @@
+
+
+.caja {
+    background-color: orange;
+    width: 400px;
+    height: 400px; 
+    margin-top: 30px; 
+    
+    display: inline-block;
+    border: 10px dashed blue; 
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
+}
+
+.contenedor h2{
+    padding-top: 70px;
+    padding-right: 10px;
+    color: black;
+}
+
+.mi-caja{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    border: 5px solid blueviolet;
+    background-color: brown;
+    margin:auto; /* el elemento queda alineado al centro*/
+    margin-top: 10px;
+    
+}
+
+p{
+    box-sizing: border-box;
+}
+
+
+
+/* El margin no suma tamaño a la caja*/ 
+/*Este no suma tamaño a la caja, pero si ocupara espacio dentro del contexto en el que se encuentra. */
+
