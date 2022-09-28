@@ -1,0 +1,144 @@
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+
+     
+   
+}
+
+
+
+.container-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+    
+}
+
+.flex-list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.flex-list li a{
+    text-decoration: none;
+    margin:  45px;
+    color:#242E52;
+    
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+    
+    
+}
+
+
+.btn-estilo{
+    width: 134px;
+    height: 44px; 
+
+
+    background-color: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    
+    
+
+
+}
+
+/*Main */ 
+
+
+.flex-container {
+
+     display: flex;
+     justify-content: center;
+     justify-content: space-between;
+     margin-top: 50px; 
+
+}
+
+.contenedor-1{
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 150px;
+    
+    
+    
+    
+}
+
+
+
+.contenedor-1, h2 {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    margin-bottom:10px;
+
+   
+     
+  
+}
+
+.contenedor-1, p {
+
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    
+
+   
+
+   
+}
+
+.btn-2{
+   margin-top: 20px;
+}
+
+.cont-principal img {
+    margin-right: 90px;
+}
+
+
+
+/* Segundo Contenido, titulo y LISTAS*/ 
+
+.cont-sec-1{
+    margin-left: 150px;
+}
+
+.cont-sec-1 h3{
+    
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+}
+
+.con-sec-1 p{
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+.flex-1{
+    display: flex;
+    
+}
+
+
